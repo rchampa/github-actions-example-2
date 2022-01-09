@@ -1,0 +1,7 @@
+How to convert your key store in base64?
+Run the following command:
+openssl base64 -in <infile> -out <outfile>
+Example :
+openssl base64 -in mykeystore -out base64contents.txt
+
+
